@@ -1,0 +1,10 @@
+ <h1>mis compras</h1>
+<ol>
+    <% @sales.each do |sale| %>
+    <li><%= "#{sale.product.name } - #{sale.product.price}" %></li>
+    
+ <% end %>
+
+</ol>
+ 
+ 
